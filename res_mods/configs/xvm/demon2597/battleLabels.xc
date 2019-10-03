@@ -9,18 +9,23 @@
     // Text fields shadow.
     // Тень текстовых полей.
     "textFieldShadow": { "enabled": true, "color": "0x000000", "alpha": 100, "blur": 4, "strength": 1, "distance": 0, "angle": 0 },
-    // Hit log.
-    // Лог нанесенного урона.
-    "hitlog": {
+    // Log of applied damage (see hitLog.xc).
+    // Лог нанесенного урона (см. hitLog.xc).
+    "hitLog": {
       "enabled": true,
-      "updateEvent": "ON_DAMAGE_CAUSED, ON_PANEL_MODE_CHANGED",
+      "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
       "x": "{{py:sum({{pp.widthLeft}},33)}}",
       "y": 60,
       "layer": "bottom",
       "width": 500,
       "height": 500,
-      "format": "{{hitlog-body}}",
-      "shadow": ${ "def.textFieldShadow" }
+      "format": "{{py:xvm.hitLog.log}}",
+      "shadow": ${ "def.textFieldShadow" },
+      "mouseEvents": {
+        "mouseDown": "hitLog_mouseDown",
+        "mouseUp": "hitLog_mouseUp",
+        "mouseMove": "hitLog_mouseMove"
+      }
     },
     // Total hp indicator.
     // Индикатор общего HP команд.
@@ -44,9 +49,9 @@
       "y": 32,
       "screenHAlign": "center",
       "align": "right",
-      "alpha": "{{py:xvm.total_hp.getAvgDamage('100','0',{{hitlog.dmg-total}})}}",
+      "alpha": "{{py:xvm.total_hp.getAvgDamage('100','0',{{py:xvm.totalDamage}})}}",
       "textFormat": { "size": 15 },
-      "format": "<font color='#F2F2F2'>{{l10n:avgDamage}}:</font> <b>{{py:xvm.total_hp.avgDamage('',{{hitlog.dmg-total}})}}</b>",
+      "format": "<font color='#F2F2F2'>{{l10n:avgDamage}}:</font> <b>{{py:xvm.total_hp.avgDamage('',{{py:xvm.totalDamage}})}}</b>",
       "shadow": ${ "def.textFieldShadow" }
     },
     // Threshold necessary for achievements "High caliber".
@@ -57,9 +62,9 @@
       "x": 170,
       "y": 32,
       "screenHAlign": "center",
-      "alpha": "{{py:xvm.total_hp.getMainGun('100','0',{{hitlog.dmg-total}})}}",
+      "alpha": "{{py:xvm.total_hp.getMainGun('100','0',{{py:xvm.totalDamage}})}}",
       "textFormat": { "size": 15 },
-      "format": "<font color='#F2F2F2'>{{l10n:mainGun}}:</font> <b>{{py:xvm.total_hp.mainGun('',{{hitlog.dmg-total}})}}</b>",
+      "format": "<font color='#F2F2F2'>{{l10n:mainGun}}:</font> <b>{{py:xvm.total_hp.mainGun('',{{py:xvm.totalDamage}})}}</b>",
       "shadow": ${ "def.textFieldShadow" }
     },
     // Damage log (see damageLog.xc).
@@ -67,28 +72,28 @@
     "damageLog": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT)",
-      "x": "{{py:xvm.damageLog.dLog_x}}",
-      "y": "{{py:xvm.damageLog.dLog_y}}",
+      "x": "{{py:xvm.damageLog.log.x}}",
+      "y": "{{py:xvm.damageLog.log.y}}",
       "layer": "bottom",
       "width": 400,
       "height": 232,
       "screenVAlign": "bottom",
-      "format": "{{py:xvm.damageLog.dLog}}",
+      "format": "{{py:xvm.damageLog.log}}",
       "shadow": { "$ref": { "path": "def.textFieldShadow" }, "strength": 1.3 },
       "mouseEvents": {
-        "mouseDown": "dLog_mouseDown",
-        "mouseUp": "dLog_mouseUp",
-        "mouseMove": "dLog_mouseMove",
-        "mouseWheel": "dLog_mouseWheel"
+        "mouseDown": "damageLog_mouseDown",
+        "mouseUp": "damageLog_mouseUp",
+        "mouseMove": "damageLog_mouseMove",
+        "mouseWheel": "damageLog_mouseWheel"
       }
     },
-    // Last received damage (see damageLog.xc).
-    // Последний полученый урон (см. damageLog.xc).
+    // Log of the received damage (see damageLog.xc).
+    // Лог полученного урона (см. damageLog.xc).
     "lastHit": {
       "enabled": true,
       "updateEvent": "PY(ON_LAST_HIT)",
-      "x": "{{py:xvm.damageLog.lastHit_x}}",
-      "y": "{{py:xvm.damageLog.lastHit_y}}",
+      "x": "{{py:xvm.damageLog.lastHit.x}}",
+      "y": "{{py:xvm.damageLog.lastHit.y}}",
       "layer": "bottom",
       "width": 400,
       "height": 315,
@@ -308,7 +313,7 @@
     // Referenced labels (extended format supported, see extra-field.txt).
     // Подключенные текстовые поля (поддерживается расширенный формат, см. extra-field.txt).
     "formats": [
-      ${ "def.hitlog" },
+      ${ "def.hitLog" },
       ${ "def.totalHP" },
       ${ "def.avgDamage" },
       ${ "def.mainGun" },

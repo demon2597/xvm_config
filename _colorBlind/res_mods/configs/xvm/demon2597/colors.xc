@@ -344,6 +344,16 @@
       { "value": 74.4, "color": ${"def.color4"} },
       { "value": 78.4, "color": ${"def.color5"} },
       { "value": 100,  "color": ${"def.color6"} }
+    ],
+    // Dynamic color by percentage of damage caused.
+    // Динамический цвет по проценту нанесенного урона цели.
+    "dmg_ratio_player": [
+      { "value": 16.5, "color": ${"def.color1"} },
+      { "value": 33.5, "color": ${"def.color2"} },
+      { "value": 49.5, "color": ${"def.color3"} },
+      { "value": 66.5, "color": ${"def.color4"} },
+      { "value": 83.5, "color": ${"def.color5"} },
+      { "value": 999,  "color": ${"def.color6"} }
     ]
   }
 }

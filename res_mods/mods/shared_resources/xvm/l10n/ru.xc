@@ -30,6 +30,7 @@
     "Hits": "Атак",
     "Total": "Урона",
     "Last": "Последний",
+    "pillbox": "Огневая точка {0}",
 
     // Capture
     "enemyBaseCapture": "База{0} атакована! Идет захват...",
@@ -80,6 +81,7 @@
     "turret": "башня",
     "hull": "корпус",
     "chassis": "шасси",
+    "wheel": "колесо",
     "art_attack" : "<font face='XVMSymbol' size='21'>&#x110;</font>  артудар",
     "art_attack_1" : "Артудар",
     "air_strike" : "<font face='XVMSymbol' size='21'>&#x111;</font>  авиаудар",

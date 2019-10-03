@@ -1,6 +1,11 @@
 ﻿/**
-  * Macros used in damageLog:
-  * Макросы используемые в damageLog:
+  * Log of the received damage.
+  * For additional settings see battleLabelsTemplates.xc
+  * Лог полученного урона.
+  * Дополнительные настройки см. в battleLabelsTemplates.xc
+
+  Macros used in damageLog:
+  Макросы используемые в damageLog:
 
     {{number}}         - line number / номер строки.
     {{dmg}}            - received damage / полученный урон.
@@ -40,6 +45,7 @@
     {{crit-device}}    - damaged module or shell-shocked crew member / поврежденный модуль или контуженный член экипажа.
     {{type-shell-key}} - shell kind table key value / название ключа таблицы типа снаряда.
     {{hitTime}}        - time of the received (blocked) damage in "mm:ss" format / время полученного (заблокированного) урона в формате "мм:сс".
+    {{vehiclename}}    - vehicle system name (usa-A34_M24_Chaffee) / название техники в системе (usa-A34_M24_Chaffee).
 */
 
 {
@@ -197,6 +203,7 @@
         "turret": "{{l10n:turret}}",                   // turret / башня
         "hull": "{{l10n:hull}}",                       // body / корпус
         "chassis": "{{l10n:chassis}}",                 // suspension / ходовая
+        "wheel": "{{l10n:wheel}}",                     // wheel / колесо.
         "gun": "{{l10n:gun}}",                         // gun / орудие
         "unknown": "--{{l10n:Not available short}}--"  // unknown / неизвестно
       },

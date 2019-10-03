@@ -225,19 +225,19 @@
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
-      "vehicleIconXOffsetLeft": -15,
-      "vehicleIconXOffsetRight": -17,
+      "vehicleIconOffsetXLeft": -15,
+      "vehicleIconOffsetXRight": -17,
       // Offset of X value for vehicle level.
       // Смещение координаты X для уровня танка.
-      "vehicleLevelXOffsetLeft": 0,
-      "vehicleLevelXOffsetRight": 0,
+      "vehicleLevelOffsetXLeft": 0,
+      "vehicleLevelOffsetXRight": 0,
       // Transparency of vehicle level
       // Прозрачность уровня танка
       "vehicleLevelAlpha": 0,
       // Offset of X value for frags column.
       // Смещение координаты X для поля фрагов.
-      "fragsXOffsetLeft": 0,
-      "fragsXOffsetRight": 0,
+      "fragsOffsetXLeft": 0,
+      "fragsOffsetXRight": 0,
       // Width of the frags column. Default is 24.
       // Ширина поля фрагов. По умолчанию: 24.
       "fragsWidth": "{{xvm-stat?{{r_size=2?86|98}}|47}}",
@@ -251,8 +251,8 @@
       "fragsShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for rank badge column.
       // Смещение координаты X для поля бейджа ранга.
-      "rankBadgeXOffsetLeft": 0,
-      "rankBadgeXOffsetRight": 0,
+      "rankBadgeOffsetXLeft": 0,
+      "rankBadgeOffsetXRight": 0,
       // Width of the rank badge column. Default is 24.
       // Ширина поля бейджа ранга. По умолчанию: 24.
       "rankBadgeWidth": 24,
@@ -261,8 +261,8 @@
       "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
-      "nickXOffsetLeft": 0,
-      "nickXOffsetRight": 0,
+      "nickOffsetXLeft": 0,
+      "nickOffsetXRight": 0,
       // Minimum width of the player name column. Default is 46.
       // Минимальная ширина поля имени игрока. По умолчанию: 46.
       "nickMinWidth": 46,
@@ -279,8 +279,8 @@
       "nickShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
-      "vehicleXOffsetLeft": 0,
-      "vehicleXOffsetRight": 0,
+      "vehicleOffsetXLeft": 0,
+      "vehicleOffsetXRight": 0,
       // Width of the vehicle name column. Default is 72.
       // Ширина поля названия танка. По умолчанию: 72.
       "vehicleWidth": 72,
@@ -338,19 +338,19 @@
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
-      "vehicleIconXOffsetLeft": -15,
-      "vehicleIconXOffsetRight": -17,
+      "vehicleIconOffsetXLeft": -15,
+      "vehicleIconOffsetXRight": -17,
       // Offset of X value for vehicle level.
       // Смещение координаты X для уровня танка.
-      "vehicleLevelXOffsetLeft": 0,
-      "vehicleLevelXOffsetRight": 0,
+      "vehicleLevelOffsetXLeft": 0,
+      "vehicleLevelOffsetXRight": 0,
       // Transparency of vehicle level
       // Прозрачность уровня танка
       "vehicleLevelAlpha": 0,
       // Offset of X value for frags column.
       // Смещение координаты X для поля фрагов.
-      "fragsXOffsetLeft": 0,
-      "fragsXOffsetRight": 0,
+      "fragsOffsetXLeft": 0,
+      "fragsOffsetXRight": 0,
       // Width of the frags column. Default is 24.
       // Ширина поля фрагов. По умолчанию: 24.
       "fragsWidth": "{{xvm-stat?{{r_size=2?213|225}}|173}}",
@@ -364,8 +364,8 @@
       "fragsShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for rank badge column.
       // Смещение координаты X для поля бейджа ранга.
-      "rankBadgeXOffsetLeft": 0,
-      "rankBadgeXOffsetRight": 0,
+      "rankBadgeOffsetXLeft": 0,
+      "rankBadgeOffsetXRight": 0,
       // Width of the rank badge column. Default is 24.
       // Ширина поля бейджа ранга. По умолчанию: 24.
       "rankBadgeWidth": 24,
@@ -374,8 +374,8 @@
       "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
-      "nickXOffsetLeft": 0,
-      "nickXOffsetRight": 0,
+      "nickOffsetXLeft": 0,
+      "nickOffsetXRight": 0,
       // Minimum width of the player name column. Default is 46.
       // Минимальная ширина поля имени игрока. По умолчанию: 46.
       "nickMinWidth": 46,
@@ -392,8 +392,8 @@
       "nickShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
-      "vehicleXOffsetLeft": 0,
-      "vehicleXOffsetRight": 0,
+      "vehicleOffsetXLeft": 0,
+      "vehicleOffsetXRight": 0,
       // Width of the vehicle name column. Default is 72.
       // Ширина поля названия танка. По умолчанию: 72.
       "vehicleWidth": 72,
@@ -468,19 +468,19 @@
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
-      "vehicleIconXOffsetLeft": -15,
-      "vehicleIconXOffsetRight": -17,
+      "vehicleIconOffsetXLeft": -15,
+      "vehicleIconOffsetXRight": -17,
       // Offset of X value for vehicle level.
       // Смещение координаты X для уровня танка.
-      "vehicleLevelXOffsetLeft": 0,
-      "vehicleLevelXOffsetRight": 0,
+      "vehicleLevelOffsetXLeft": 0,
+      "vehicleLevelOffsetXRight": 0,
       // Transparency of vehicle level
       // Прозрачность уровня танка
       "vehicleLevelAlpha": 0,
       // Offset of X value for frags column.
       // Смещение координаты X для поля фрагов.
-      "fragsXOffsetLeft": 0,
-      "fragsXOffsetRight": 0,
+      "fragsOffsetXLeft": 0,
+      "fragsOffsetXRight": 0,
       // Width of the frags column. Default is 24.
       // Ширина поля фрагов. По умолчанию: 24.
       "fragsWidth": "{{xvm-stat?213|173}}",
@@ -494,8 +494,8 @@
       "fragsShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for rank badge column.
       // Смещение координаты X для поля бейджа ранга.
-      "rankBadgeXOffsetLeft": 0,
-      "rankBadgeXOffsetRight": 0,
+      "rankBadgeOffsetXLeft": 0,
+      "rankBadgeOffsetXRight": 0,
       // Width of the rank badge column. Default is 24.
       // Ширина поля бейджа ранга. По умолчанию: 24.
       "rankBadgeWidth": 24,
@@ -504,8 +504,8 @@
       "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
-      "nickXOffsetLeft": 0,
-      "nickXOffsetRight": 0,
+      "nickOffsetXLeft": 0,
+      "nickOffsetXRight": 0,
       // Minimum width of the player name column. Default is 46.
       // Минимальная ширина поля имени игрока. По умолчанию: 46.
       "nickMinWidth": 46,
@@ -522,8 +522,8 @@
       "nickShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
-      "vehicleXOffsetLeft": 0,
-      "vehicleXOffsetRight": 0,
+      "vehicleOffsetXLeft": 0,
+      "vehicleOffsetXRight": 0,
       // Width of the vehicle name column. Default is 72.
       // Ширина поля названия танка. По умолчанию: 72.
       "vehicleWidth": 72,
@@ -595,19 +595,19 @@
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
-      "vehicleIconXOffsetLeft": -15,
-      "vehicleIconXOffsetRight": -17,
+      "vehicleIconOffsetXLeft": -15,
+      "vehicleIconOffsetXRight": -17,
       // Offset of X value for vehicle level.
       // Смещение координаты X для уровня танка.
-      "vehicleLevelXOffsetLeft": 0,
-      "vehicleLevelXOffsetRight": 0,
+      "vehicleLevelOffsetXLeft": 0,
+      "vehicleLevelOffsetXRight": 0,
       // Transparency of vehicle level
       // Прозрачность уровня танка
       "vehicleLevelAlpha": 0,
       // Offset of X value for frags column.
       // Смещение координаты X для поля фрагов.
-      "fragsXOffsetLeft": 0,
-      "fragsXOffsetRight": 0,
+      "fragsOffsetXLeft": 0,
+      "fragsOffsetXRight": 0,
       // Width of the frags column. Default is 24.
       // Ширина поля фрагов. По умолчанию: 24.
       "fragsWidth": "{{xvm-stat?{{r_size=2?260|272}}|173}}",
@@ -621,8 +621,8 @@
       "fragsShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for rank badge column.
       // Смещение координаты X для поля бейджа ранга.
-      "rankBadgeXOffsetLeft": 0,
-      "rankBadgeXOffsetRight": 0,
+      "rankBadgeOffsetXLeft": 0,
+      "rankBadgeOffsetXRight": 0,
       // Width of the rank badge column. Default is 24.
       // Ширина поля бейджа ранга. По умолчанию: 24.
       "rankBadgeWidth": 24,
@@ -631,8 +631,8 @@
       "rankBadgeAlpha": "{{alive?100|70}}",
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
-      "nickXOffsetLeft": 0,
-      "nickXOffsetRight": 0,
+      "nickOffsetXLeft": 0,
+      "nickOffsetXRight": 0,
       // Minimum width of the player name column. Default is 46.
       // Минимальная ширина поля имени игрока. По умолчанию: 46.
       "nickMinWidth": 46,
@@ -649,8 +649,8 @@
       "nickShadowRight": ${ "def.textFieldShadow" },
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
-      "vehicleXOffsetLeft": 0,
-      "vehicleXOffsetRight": 0,
+      "vehicleOffsetXLeft": 0,
+      "vehicleOffsetXRight": 0,
       // Width of the vehicle name column. Default is 72.
       // Ширина поля названия танка. По умолчанию: 72.
       "vehicleWidth": 72,

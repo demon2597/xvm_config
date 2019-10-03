@@ -30,6 +30,7 @@
     "Hits": "Attacks",
     "Total": "Damage",
     "Last": "Last",
+    "pillbox": "Pillboxes {0}",
 
     // Capture
     "enemyBaseCapture": "Base{0} attacked! Capture occurs...",
@@ -76,6 +77,7 @@
     "turret": "turret",
     "hull": "hull",
     "chassis": "chassis",
+    "wheel": "wheel",
     "intermediate_ricochet_1": "Ricochet",
     "final_ricochet_1": "Ricochet",
     "armor_not_pierced_1": "Not pierced",

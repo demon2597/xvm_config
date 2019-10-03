@@ -41,6 +41,9 @@
     // true - enable locker for free XP
     // true - включить замок для свободного опыта
     "enableFreeXpLocker": true,
+    // true - enable locker for bonds.
+    // true - включить замок для бонов.
+    "enableCrystalLocker": true,
     // Show/hide server info or change its parameters
     // Показать/спрятать информацию о сервере, или изменить ее параметры
     "serverInfo": {
