@@ -54,19 +54,19 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "https://koreanrandom.com/forum/topic/2172-",
+    "url": "https://kr.cm/f/t/2172/",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "03.05.2019",
+    "date": "13.05.2019",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "1.5.0.0",
+    "gameVersion": "1.5.0.1",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "7.9.0"
+    "modMinVersion": "7.9.1"
   },
 
   // Parameters for login screen.
@@ -187,17 +187,5 @@
 
   // Various settings for advanced users
   // Различные настройки для продвинутых пользоватей
-  "tweaks": ${"tweaks.xc":"tweaks"},
-
-  // Constants.
-  // Константы.
-  "consts": {
-  // Darking factors of vehicle class marks.
-  // Коффициенты затемнения значков класса техники.
-  "VM_COEFF_VMM": 0.88,        // vehicle markers manager (alive) / маркеры над танком (живые)
-  "VM_COEFF_VMM_DEAD": 0.7,    // vehicle markers manager (dead) / маркеры над танком (мертвые) 
-  "VM_COEFF_MM_PLAYER": 0.93,  // minimap (player) / игроки на миникарте
-  "VM_COEFF_MM_BASE": 0.83,    // minimap (base) / базы на миникарте
-  "VM_COEFF_FC": 0.93          // frag correlation / значки в панели счета
-  }
+  "tweaks": ${"tweaks.xc":"tweaks"}
 }

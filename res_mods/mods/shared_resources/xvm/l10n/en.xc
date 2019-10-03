@@ -102,7 +102,7 @@
     // BattleResults
     "Hit percent": "Hit percent",
     "Damage (assisted / own)": "Damage (assisted / own)",
-    "BR_xpCrew": "to crew",
+    "BR_xpCrew": "<font face='XVMSymbol'>&#x6B;</font>",
 
     // TeamRenderers
     "Friend": "Friend",
