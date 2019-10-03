@@ -37,7 +37,7 @@
       "screenHAlign": "center",
       "align": "center",
       "textFormat": { "font": "ZurichCondMono", "bold": true, "size": 18 },
-      "format": "{{py:xvm.total_hp.text}}",
+      "format": "{{battletype-key!=epic_battle?{{py:xvm.total_hp.text}}}}",
       "shadow": ${ "def.textFieldShadow" }
     },
     // Avg damage on current vehicle.

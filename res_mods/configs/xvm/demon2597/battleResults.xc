@@ -22,6 +22,9 @@
     // true - Show totals for your battle efficiency in first page
     // true - Показывать итог по вашей боевой эффективности на первой странице
     "showTotals": true,
+    // true - display standard interface for the "FrontLine" mode.
+    // true - отображать стандартный интерфейс для режима "Линия фронта".
+    "showStandardFrontLineInterface": true,
     // Customize "Manageable bonus to experience" panel.
     // Настройка панели "Управляемый бонус к опыту".
     "bonusState": {
