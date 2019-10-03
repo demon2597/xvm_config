@@ -49,7 +49,7 @@
       "hideHelpScreen": true,
       // true - hide the tips about radar activation ("Steel Hunter" mode).
       // true - скрыть подсказку активации радара (режим "Стальной охотник").
-      "hideRadarHint": true
+      "hideRadarHint": false
     },
     // GUI elements settings (experts only)
     // Настройки графических элементов (только для экспертов!)
