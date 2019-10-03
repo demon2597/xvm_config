@@ -4,15 +4,18 @@
  */
 {
   "tooltips": {
-    // true - Combine icons of equipment and optional devices into one row.
-    // true - Объединить значки оборудования и доп.модулей в одну строку.
+    // true - combine icons of equipment and optional devices into one row.
+    // true - объединить значки оборудования и доп.модулей в одну строку.
     "combineIcons": true,
-    // true - Hide simplified vehicle parameters
-    // true - Спрятать упрощенные ТТХ
+    // true - hide simplified vehicle parameters.
+    // true - спрятать упрощенные ТТХ.
     "hideSimplifiedVehParams": true,
-    // true - Hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew.
-    // true - Спрятать текст внизу подсказки показывающий количество используемого оборудования, доп. модулей и экипаж.
+    // true - hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew.
+    // true - спрятать текст внизу подсказки показывающий количество используемого оборудования, доп. модулей и экипаж.
     "hideBottomText": true,
+    // true - display of missing experience to unlock vehicles.
+    // true - отображать недостающий опыт для исследования техники.
+    "showXpToUnlockVeh": true,
     // delay in tooltips appearance: increase in case of freezes, default is 0.4 sec
     // задержка отображения подсказок: увеличьте в случае фризов, по-умолчанию 0.4 сек
     "tooltipsDelay": 0.4,
