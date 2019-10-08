@@ -10,9 +10,6 @@
     // false - Disable pop-up panel at the bottom after death.
     // false - отключить всплывающую внизу панель после смерти.
     "showPostmortemTips": false,
-    // false - disable pop-up panel with a dog tag.
-    // false - отключить всплывающую внизу панель с личным жетоном.
-    "showPostmortemDogtag": true,
     // false - disable highlighting of own vehicle icon and squad.
     // false - отключить подсветку иконки своего танка и взвода.
     "highlightVehicleIcon": false,

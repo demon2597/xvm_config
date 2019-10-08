@@ -4,7 +4,7 @@
  */
 {
   "vehicleNames": {
-    // Last update: 17.09.2019
+    // Last update: 08.10.2019
     "china-Ch01_Type59":                     {"name": null, "short": null},
     "china-Ch01_Type59_Gold":                {"name": null, "short": null},
     "china-Ch02_Type62":                     {"name": null, "short": null},
@@ -154,7 +154,6 @@
     "france-F89_Canon_dassaut_de_105":       {"name": null, "short": null},
     "france-F97_ELC_EVEN_90":                {"name": null, "short": null},
     "germany-Env_Artillery":                 {"name": null, "short": null},
-    "germany-G00_VK1602_race":               {"name": null, "short": null},
     "germany-G02_Hummel":                    {"name": null, "short": null},
     "germany-G03_PzV_Panther":               {"name": null, "short": null},
     "germany-G03_PzV_Panther_IGR":           {"name": null, "short": null},
@@ -218,6 +217,7 @@
     "germany-G141_VK7501K":                  {"name": null, "short": null},
     "germany-G142_M48RPz":                   {"name": null, "short": null},
     "germany-G143_E75_TS":                   {"name": null, "short": null},
+    "germany-G144_Kpz_50t":                  {"name": null, "short": null},
     "germany-G15_VK3601H":                   {"name": null, "short": null},
     "germany-G16_PzVIB_Tiger_II":            {"name": null, "short": null},
     "germany-G16_PzVIB_Tiger_II_F":          {"name": null, "short": null},
@@ -367,6 +367,7 @@
     "poland-Pl13_53TP_Markowskiego":         {"name": null, "short": null},
     "poland-Pl14_4TP":                       {"name": null, "short": null},
     "poland-Pl15_60TP_Lewandowskiego":       {"name": null, "short": null},
+    "poland-Pl16_T34_85_Rudy":               {"name": null, "short": null},
     "sweden-S01_Strv_74_A2":                 {"name": null, "short": null},
     "sweden-S02_Strv_M42":                   {"name": null, "short": null},
     "sweden-S03_Strv_M38":                   {"name": null, "short": null},
@@ -487,7 +488,7 @@
     "uk-GB96_Excalibur":                     {"name": null, "short": null},
     "uk-GB97_Chimera":                       {"name": null, "short": null},
     "uk-GB98_T95_FV4201_Chieftain":          {"name": null, "short": null},
-    "usa-A00_M24_Chaffee_race":              {"name": null, "short": null},
+    "uk-GB99_Turtle_Mk1":                    {"name": null, "short": null},
     "usa-A01_T1_Cunningham":                 {"name": null, "short": null},
     "usa-A01_T1_Cunningham_bot":             {"name": null, "short": null},
     "usa-A02_M2_lt":                         {"name": null, "short": null},
@@ -605,7 +606,6 @@
     "usa-A97_M41_Bulldog":                   {"name": null, "short": null},
     "usa-A99_T92_LT":                        {"name": null, "short": null},
     "ussr-Observer":                         {"name": null, "short": null},
-    "ussr-R00_T-50_race":                    {"name": null, "short": null},
     "ussr-R01_IS":                           {"name": null, "short": null},
     "ussr-R02_SU-85":                        {"name": null, "short": null},
     "ussr-R03_BT-7":                         {"name": null, "short": null},
@@ -687,6 +687,8 @@
     "ussr-R15_S-51":                         {"name": null, "short": null},
     "ussr-R160_T_50_2":                      {"name": null, "short": null},
     "ussr-R161_T_116":                       {"name": null, "short": null},
+    "ussr-R165_Object_703_II":               {"name": null, "short": null},
+    "ussr-R165_Object_703_II_2":             {"name": null, "short": null},
     "ussr-R16_SU-18":                        {"name": null, "short": null},
     "ussr-R17_SU-100":                       {"name": null, "short": null},
     "ussr-R18_SU-152":                       {"name": null, "short": null},
