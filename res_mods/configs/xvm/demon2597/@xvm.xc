@@ -54,11 +54,11 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "https://kr.cm/f/t/2172/",
+    "url": "https://github.com/demon2597/xvm_config/releases",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "22.10.2019",
+    "date": "23.10.2019",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -66,7 +66,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "8.1.2"
+    "modMinVersion": "8.1.3"
   },
 
   // Parameters for login screen.
