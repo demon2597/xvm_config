@@ -331,7 +331,7 @@
       ${ "def.repairTimeEngine" },
       ${ "def.repairTimeGun" },
       ${ "def.repairTimeTurret" },
-      ${ "def.repairTimeComplex" }, 
+      ${ "def.repairTimeComplex" },
       ${ "def.repairTimeSurveying" },
       ${ "def.repairTimeRadio" }
     ]

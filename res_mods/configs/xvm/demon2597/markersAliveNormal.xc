@@ -311,7 +311,7 @@
               "format": "&#x45;",             //  формат текста. См. описание макросов в macros.txt
               "shadow": { "$ref": { "path": "def.textFieldShadow" }, "enabled": false }
             },
-            // Щит 
+            // Щит
             {
               "name": "shield",               //  название текстового поля, ни на что не влияет
               "enabled": true,                //  false - не отображать
@@ -395,7 +395,7 @@
               "format": "&#x44;",             //  формат текста. См. описание макросов в macros.txt
               "shadow": { "$ref": { "path": "def.textFieldShadow" }, "enabled": false }
             },
-            // Прицел 
+            // Прицел
             {
               "name": "sight",                //  название текстового поля, ни на что не влияет
               "enabled": true,                //  false - не отображать

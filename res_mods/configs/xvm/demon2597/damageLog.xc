@@ -108,13 +108,13 @@
         "gas_attack": "#E5BE01",       // gas attack / газовая атака
         "art_attack": "#FFAA55",       // art attack / артиллерийская поддержка
         "air_strike": "#FFAA55"        // air strike / поддержка авиации
-      },   
+      },
       // Damage with shell splinters (HE/HESH). (macro {{splash-hit}}).
       // Урон осколками снаряда (ОФ/ХФ). (макрос {{splash-hit}}).
       "splash-hit": {
         "splash": "{{l10n:splash}}",   // splash damage / попадание осколков
         "no-splash": "{{l10n:shot}}"   // no splash damage / нет попадания осколков
-      },      
+      },
       // Shell kind (macro {{type-shell}}).
       // Тип снаряда (макрос {{type-shell}}).
       "type-shell": {
@@ -134,7 +134,7 @@
         "armor_piercing_he": "#CCCCCC",  // armor piercing high explosive / бронебойно-фугасный
         "hollow_charge": "#CCCCCC",      // high explosive anti-tank / кумулятивный
         "not_shell": "#CCCCCC"           // another source of damage / другой источник урона
-      },      
+      },
       // Vehicle type (macro {{vtype}}).
       // Тип техники (макрос {{vtype}}).
       "vtype": {
@@ -263,7 +263,7 @@
       // Damage log background format.
       // Формат подложки лога повреждений.
       "formatHistory": ""
-    }, 
+    },
     // Log of the received damage (alternative mode).
     // Лог полученного урона (альтернативный режим).
     "logAlt": {
@@ -287,7 +287,7 @@
       // Damage log background format.
       // Формат подложки лога повреждений.
       "formatHistory": ""
-    }, 
+    },
     // Last damage (hit).
     // Последний урон (попадание).
     "lastHit": {

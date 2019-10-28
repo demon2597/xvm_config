@@ -57,7 +57,7 @@
         //"x": 229,
         //"y": 853,
         "summaryDamageBlock": {
-          "y": 14,                   
+          "y": 14,
           "x": 0
         },
         "damageValTF": {

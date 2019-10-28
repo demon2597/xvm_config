@@ -52,7 +52,7 @@
     "gun": "gun",
     "turret_rotator": "turret rotator",
     "surveying_device": "surveying device",
-    
+
     // Tankmen
     "commander": "commander",
     "driver": "driver",
@@ -191,7 +191,7 @@
     "Battle tiers": "Battle tiers",
     "Type": "Type",
     "Nation": "Nation",
-    
+
     // Nation
     "ussr": "USSR",
     "germany": "Germany",
@@ -204,7 +204,7 @@
     "poland": "Poland",
     "sweden": "Sweden",
     "italy": "Italy",
-    
+
     // Vehicle type
     "HT": "HT",
     "MT": "MT",

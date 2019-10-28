@@ -58,15 +58,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "25.10.2019",
+    "date": "28.10.2019",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "1.6.1.2",
+    "gameVersion": "1.6.1.3",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "8.1.5"
+    "modMinVersion": "8.1.6"
   },
 
   // Parameters for login screen.
@@ -99,7 +99,7 @@
 
   // Log of the received hits.
   // Лог полученных попаданий.
-  "damageLog": ${"damageLog.xc":"damageLog"},  
+  "damageLog": ${"damageLog.xc":"damageLog"},
 
   // Special XVM hotkeys.
   // Специальные горячие клавиши XVM.

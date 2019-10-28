@@ -121,7 +121,7 @@
       "imp_medium_critical_AP_NPC_NPC": "imp_medium_pierce_AP_NPC_NPC",
       "imp_large_critical_AP_NPC_NPC": "imp_large_pierce_AP_NPC_NPC",
       "imp_huge_critical_AP_NPC_NPC": "imp_huge_pierce_AP_NPC_NPC",
-      // APCR / ПК 
+      // APCR / ПК
       "imp_auto_critical_APCR_NPC_NPC": "imp_auto_pierce_APCR_NPC_NPC",
       "imp_main_critical_APCR_NPC_NPC": "imp_main_pierce_APCR_NPC_NPC",
       "imp_small_critical_APCR_NPC_NPC": "imp_small_pierce_APCR_NPC_NPC",
@@ -154,7 +154,7 @@
       "xvm_sixthSenseRudy": "xvm_sixthSenseRudy",
       // Enemy detection
       // Обнаружение противника
-      "xvm_enemySighted": "",     
+      "xvm_enemySighted": "",
       // Fire alert
       // Пожар
       "xvm_fireAlert": "xvm_fireAlert",

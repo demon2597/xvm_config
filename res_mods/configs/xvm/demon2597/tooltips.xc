@@ -211,7 +211,7 @@
       "#tooltips:header/info/players_unavailable/body",
       "#tooltips:header/info/players_unavailable/header"
     ],
-    // Log all localization keys to the xvm.log file, can be helpful to search required tooltipId 
+    // Log all localization keys to the xvm.log file, can be helpful to search required tooltipId
     // Логгировать все ключи локализации в файл xvm.log, может быть полезно для поиска необходимых tooltipId
     "logLocalization": false
   }
@@ -255,7 +255,7 @@ List of possible values: (if the parameter is not relevant for some tank, it wil
 "gravity",                              - Гравитация \ Gravity
 "shellSpeedSummary",                    - Сводка скоростей снарядов \ Summary of shell speeds
 "radioRange",                           - Дальность связи \ Range of radio signal
-"rateOfFire",                           - Скорострельность оружия \ Rate of Fire 
+"rateOfFire",                           - Скорострельность оружия \ Rate of Fire
 "battleTiers",                          - Уровни боев танка \ Battle tiers of vehicle
 "maxHealth",                            - ХП танка \ HP of vehicle
 "invisibilityStillFactor"               - Незаметность неподвижной машины (%) \ Concealment of Stationary Vehicle (%)

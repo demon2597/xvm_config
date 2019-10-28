@@ -152,7 +152,7 @@
           },
           // Block of text fields (extended format supported, see extra-field.txt).
           // Блок текстовых полей (поддерживается расширенный формат, см. extra-field.txt).
-          "textFields": 
+          "textFields":
             ${ "def.textFields" }
     },
   "enemy": {
