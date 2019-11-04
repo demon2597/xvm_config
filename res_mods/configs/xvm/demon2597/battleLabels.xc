@@ -16,7 +16,7 @@
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
       "x": "{{battletype-key=epic_battle?243|{{py:sum({{pp.widthLeft}},33)}}}}",
       "y": "{{battletype-key=epic_battle?75|60}}",
-      "layer": "bottom",
+      "layer": "normal",
       "width": 500,
       "height": 500,
       "format": "{{py:xvm.hitLog.log}}",
@@ -24,7 +24,8 @@
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
-        "mouseMove": "hitLog_mouseMove"
+        "mouseMove": "hitLog_mouseMove",
+        "mouseWheel": "hitLog_mouseWheel"
       }
     },
     // Total hp indicator.

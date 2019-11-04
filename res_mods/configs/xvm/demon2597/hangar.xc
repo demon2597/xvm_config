@@ -28,8 +28,19 @@
     // true - show info window with list of received awards for "Reward for Merit".
     // true - показывать информационное окно с перечнем полученных наград за "Довольствие".
     "showRewardWindow": true,
+    // true - show info windows with the battle results in the "Ranked battle" mode.
+    // true - показывать информационные окна результатов боя в режиме "Ранговый бой".
+    "showRankedBattleResults": true,
     // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
     // "Полевая почта" - показывать/прятать уведомления в главном окне и счетчики в меню.
+    "equipmentPanel": {
+      //true - show the remaining quantity of equipment in depot.
+      //true - показать оставшиеся количество оборудования на складе.
+      "showNumberEquipment": true,
+      //true - show the remaining quantity of directives in depot.
+      //true - показать оставшиеся количество инструкций на складе.
+      "showNumberDirectives": true
+    },
     "combatIntelligence": {
       // false - disable display pop-up messages in the hangar
       // false - отключить отображение всплывающих сообщений в ангаре

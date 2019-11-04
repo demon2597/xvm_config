@@ -33,6 +33,10 @@
   // или укажите имя файла в папке res_mods/mods/shared_resources/xvm/l10n/ (например, "en")
   "language": "auto",
 
+  // The path to the folder with custom localization files, is set relative to the user config folder.
+  // Путь к папке с пользовательскими файлами локализации, задается относительно папки пользовательского конфига.
+  "userLanguageFolder": "l10n",
+
   // Game Region
   // "auto" - automatically detect game region from game client,
   // or specify one of: "RU", "EU", "NA", "ASIA", "KR", "CN"
@@ -58,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "28.10.2019",
+    "date": "04.11.2019",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -66,7 +70,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "8.1.6"
+    "modMinVersion": "8.1.7"
   },
 
   // Parameters for login screen.
@@ -95,11 +99,11 @@
 
   // Battle interface text fields
   // Текстовые поля боевого интерфейса
-  "battleLabels": ${"battleLabels.xc":"labels"},
+  "battleLabels": ${"battleLabels.xc": "labels"},
 
   // Log of the received hits.
   // Лог полученных попаданий.
-  "damageLog": ${"damageLog.xc":"damageLog"},
+  "damageLog": ${"damageLog.xc": "damageLog"},
 
   // Special XVM hotkeys.
   // Специальные горячие клавиши XVM.
@@ -115,7 +119,7 @@
 
   // Parameters for the alternative view of the Battle Loading screen.
   // Параметры альтернативного представления экрана загрузки боя.
-  "battleLoadingTips": ${"battleLoadingTips.xc":"battleLoadingTips"},
+  "battleLoadingTips": ${"battleLoadingTips.xc": "battleLoadingTips"},
 
   // Parameters of the Battle Statistics form.
   // Параметры окна статистики по клавише Tab.
@@ -171,21 +175,21 @@
 
   // Export data
   // Выгрузка данных
-  "export": ${"export.xc":"export"},
+  "export": ${"export.xc": "export"},
 
   // Parameters for tooltips
   // Параметры всплывающих подсказок
-  "tooltips": ${"tooltips.xc":"tooltips"},
+  "tooltips": ${"tooltips.xc": "tooltips"},
 
   // Extra sounds settings
   // Настройки дополнительных звуков
-  "sounds": ${"sounds.xc":"sounds"},
+  "sounds": ${"sounds.xc": "sounds"},
 
   // XMQP service settings
   // Настройки сервиса XMQP
-  "xmqp": ${"xmqp.xc":"xmqp"},
+  "xmqp": ${"xmqp.xc": "xmqp"},
 
   // Various settings for advanced users
   // Различные настройки для продвинутых пользоватей
-  "tweaks": ${"tweaks.xc":"tweaks"}
+  "tweaks": ${"tweaks.xc": "tweaks"}
 }
