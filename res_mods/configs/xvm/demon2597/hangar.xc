@@ -31,16 +31,18 @@
     // true - show info windows with the battle results in the "Ranked battle" mode.
     // true - показывать информационные окна результатов боя в режиме "Ранговый бой".
     "showRankedBattleResults": true,
-    // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
-    // "Полевая почта" - показывать/прятать уведомления в главном окне и счетчики в меню.
+    // Consumables panel - show/hide the number of consumables and directives.
+    // Панель снаряжения - показывать/прятать количество снаряжения и инструкций.
     "equipmentPanel": {
-      //true - show the remaining quantity of equipment in depot.
-      //true - показать оставшиеся количество оборудования на складе.
-      "showNumberEquipment": true,
+      //true - show the remaining quantity of consumables in depot.
+      //true - показать оставшиеся количество снаряжения на складе.
+      "showConsumablesCount": false,
       //true - show the remaining quantity of directives in depot.
       //true - показать оставшиеся количество инструкций на складе.
-      "showNumberDirectives": true
+      "showDirectivesCount": false
     },
+    // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
+    // "Полевая почта" - показывать/прятать уведомления в главном окне и счетчики в меню.
     "combatIntelligence": {
       // false - disable display pop-up messages in the hangar
       // false - отключить отображение всплывающих сообщений в ангаре
@@ -329,6 +331,22 @@
       "missions": false,                     // Missions / Задачи
       "profile": true,                       // Service Record / Достижения
       "PersonalMissionOperationsPage": true  // Campaigns / Кампании
+    },
+    // Parameters of sorting tankmen in barracks.
+    // Параметры сортировки танкистов в казарме.
+    "barracks": {
+      // Order of nations.
+      // Порядок наций.
+      //"nations_order": ["ussr", "germany", "usa", "china", "france", "uk", "japan", "czech", "poland", "sweden", "italy"],
+      "nations_order": [],
+      // Order of crew roles.
+      // Порядок ролей экипажа.
+      // "roles_order": ["commander", "gunner", "driver", "radioman", "loader"],
+      "roles_order": [],
+      // Tankmen sorting criteria, available options: (minus = reverse order)
+      // Критерии сортировки танкистов, доступные значения: (минус = в обратном порядке)
+      // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
+      "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },
     // Parameters for tank carousel
     // Параметры карусели танков
