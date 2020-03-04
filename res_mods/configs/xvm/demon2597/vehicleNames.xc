@@ -4,7 +4,7 @@
  */
 {
   "vehicleNames": {
-    // Last update: 28.01.2020
+    // Last update: 14.02.2020
     "china-Ch01_Type59":                     {"name": null, "short": null},
     "china-Ch01_Type59_Gold":                {"name": null, "short": null},
     "china-Ch02_Type62":                     {"name": null, "short": null},
@@ -52,6 +52,7 @@
     "china-Ch37_WZ111G_FT":                  {"name": null, "short": null},
     "china-Ch38_WZ113G_FT":                  {"name": null, "short": null},
     "china-Ch39_WZ120_1G_FT":                {"name": null, "short": null},
+    "china-Ch39_WZ120_1G_FT_FL":             {"name": null, "short": null},
     "china-Ch40_WZ120G_FT":                  {"name": null, "short": null},
     "china-Ch41_WZ_111_5A":                  {"name": null, "short": null},
     "china-Ch41_WZ_111_5A_bob":              {"name": null, "short": null},
@@ -157,6 +158,7 @@
     "france-F88_AMX_13_105":                 {"name": null, "short": null},
     "france-F89_Canon_dassaut_de_105":       {"name": null, "short": null},
     "france-F97_ELC_EVEN_90":                {"name": null, "short": null},
+    "france-F97_ELC_EVEN_90_FL":             {"name": null, "short": null},
     "germany-Env_Artillery":                 {"name": null, "short": null},
     "germany-G02_Hummel":                    {"name": null, "short": null},
     "germany-G03_PzV_Panther":               {"name": null, "short": null},
@@ -396,6 +398,7 @@
     "sweden-S20_Ikv_72":                     {"name": null, "short": null},
     "sweden-S21_UDES_03":                    {"name": null, "short": null},
     "sweden-S22_Strv_S1":                    {"name": null, "short": null},
+    "sweden-S22_Strv_S1_FL":                 {"name": null, "short": null},
     "sweden-S23_Strv_81":                    {"name": null, "short": null},
     "sweden-S23_Strv_81_sabaton":            {"name": null, "short": null},
     "sweden-S25_EMIL_51":                    {"name": null, "short": null},
@@ -404,6 +407,7 @@
     "sweden-S28_UDES_15_16":                 {"name": null, "short": null},
     "sweden-S28_UDES_15_16_bob":             {"name": null, "short": null},
     "sweden-S29_UDES_14_5":                  {"name": null, "short": null},
+    "sweden-S30_UDES_03_Alt_3":              {"name": null, "short": null},
     "uk-GB01_Medium_Mark_I":                 {"name": null, "short": null},
     "uk-GB01_Medium_Mark_I_bot":             {"name": null, "short": null},
     "uk-GB03_Cruiser_Mk_I":                  {"name": null, "short": null},
@@ -526,6 +530,7 @@
     "usa-A115_Chrysler_K_GF":                {"name": null, "short": null},
     "usa-A116_XM551":                        {"name": null, "short": null},
     "usa-A117_T26E5":                        {"name": null, "short": null},
+    "usa-A117_T26E5_FL":                     {"name": null, "short": null},
     "usa-A117_T26E5_Patriot":                {"name": null, "short": null},
     "usa-A118_M4_Thunderbolt":               {"name": null, "short": null},
     "usa-A11_T29":                           {"name": null, "short": null},
@@ -540,6 +545,7 @@
     "usa-A126_PzVI_Tiger_II_capt":           {"name": null, "short": null},
     "usa-A127_TL_1_LPC":                     {"name": null, "short": null},
     "usa-A12_T32":                           {"name": null, "short": null},
+    "usa-A12_T32_FL":                        {"name": null, "short": null},
     "usa-A130_Super_Hellcat":                {"name": null, "short": null},
     "usa-A13_T34_hvy":                       {"name": null, "short": null},
     "usa-A13_T34_hvy_BF":                    {"name": null, "short": null},
@@ -702,6 +708,7 @@
     "ussr-R170_IS_2_II":                     {"name": null, "short": null},
     "ussr-R171_IS_3_II":                     {"name": null, "short": null},
     "ussr-R172_Object_752":                  {"name": null, "short": null},
+    "ussr-R175_IS_2_screen":                 {"name": null, "short": null},
     "ussr-R17_SU-100":                       {"name": null, "short": null},
     "ussr-R18_SU-152":                       {"name": null, "short": null},
     "ussr-R18_SU-152_IGR":                   {"name": null, "short": null},

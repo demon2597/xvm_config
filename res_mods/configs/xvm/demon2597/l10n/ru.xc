@@ -26,6 +26,7 @@
     "reloaded": "перезарядился..",
     "drowning": "<font face='XVMSymbol' size='21'>&#x119;</font>  затоплен",
     "drowning_1": "Затопление",
+    "forsaken": "<font face='XVMSymbol' size='21'>&#x116;</font> брошен",
     "intermediate_ricochet": "р-т",
     "final_ricochet": "р-т",
     "armor_not_pierced": "н/п",

@@ -26,6 +26,7 @@
     "reloaded": "reloaded..",
     "drowning": "<font face='XVMSymbol' size='21'>&#x119;</font>  drowning",
     "drowning_1": "Drowning",
+    "forsaken": "<font face='XVMSymbol' size='21'>&#x116;</font> forsaken",
     "intermediate_ricochet": "r-t",
     "final_ricochet": "r-t",
     "armor_not_pierced": "n/p",

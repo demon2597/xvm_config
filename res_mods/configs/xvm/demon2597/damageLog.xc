@@ -90,6 +90,7 @@
         "world_collision": "{{l10n:world_collision}}",  // world collision / столкновение с объектами, падение
         "drowning": "{{l10n:drowning}}",                // drowning / затопление
         "overturn": "{{l10n:overturn}}",                // overturn / опрокидывание
+        "recovery": "{{l10n:forsaken}}",                // TO DO / самоуничтожение в режиме линия фронта
         "death_zone": "{{l10n:death_zone}}",            // death zone / смертельная зона
         "gas_attack": "{{l10n:gas_attack}}",            // gas attack / газовая атака
         "art_attack": "{{l10n:art_attack}}",            // art attack / артиллерийская поддержка
@@ -104,6 +105,7 @@
         "world_collision": "#805A37",  // world collision / столкновение с объектами, падение
         "drowning": "#0073E5",         // drowning / затопление
         "overturn": "#805A37",         // overturn / опрокидывание
+        "recovery": "#CCCCCC",         // TO DO / самоуничтожение в режиме линия фронта
         "death_zone": "#DBD7D2",       // death zone / смертельная зона
         "gas_attack": "#E5BE01",       // gas attack / газовая атака
         "art_attack": "#FFAA55",       // art attack / артиллерийская поддержка
