@@ -28,6 +28,9 @@
     // true - show info windows with the battle results in the "Ranked battle" mode.
     // true - показывать информационные окна результатов боя в режиме "Ранговый бой".
     "showRankedBattleResults": true,
+    // true - show info windows when receiving progressive decals.
+    // true - показывать информационное окно при получении этапной декали.
+    "showProgressiveDecalsWindow": true,
     // true - show widget "Daily Quests" in the hangar.
     // true - показывать виджет "Ежедневные задачи" в ангаре.
     "showDailyQuestWidget": true,
@@ -158,9 +161,6 @@
       // Смещение по оси Y
       "offsetY": 0
     },
-    // true - Enable removable equipment auto return (Camouflage net, Stereoscope, Toolbox)
-    // true - Включить автовозврат съемного оборудования (Маскировочная сеть, Стереотруба, Ящик с инструментами)
-    "enableEquipAutoReturn": true,
     // true - Make vehicle not ready for battle if low ammo
     // true - Сделать машину не готовой к битве если мало снарядов
     "blockVehicleIfLowAmmo": false,
