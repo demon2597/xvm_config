@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "17.08.2020",
+    "date": "17.09.2020",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
