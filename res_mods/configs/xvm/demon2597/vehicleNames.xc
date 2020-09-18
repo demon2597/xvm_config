@@ -4,7 +4,7 @@
  */
 {
   "vehicleNames": {
-    // Last update: 23.07.2020
+    // Last update: 17.09.2020
     "china-Ch01_Type59":                     {"name": null, "short": null},
     "china-Ch01_Type59_Gold":                {"name": null, "short": null},
     "china-Ch02_Type62":                     {"name": null, "short": null},
@@ -380,7 +380,13 @@
     "poland-Pl14_4TP":                       {"name": null, "short": null},
     "poland-Pl15_60TP_Lewandowskiego":       {"name": null, "short": null},
     "poland-Pl16_T34_85_Rudy":               {"name": null, "short": null},
+    "poland-Pl17_DS_PZlnz":                  {"name": null, "short": null},
+    "poland-Pl18_BUGI":                      {"name": null, "short": null},
     "poland-Pl19_CS_52_LIS":                 {"name": null, "short": null},
+    "poland-Pl20_CS_44":                     {"name": null, "short": null},
+    "poland-Pl21_CS_63":                     {"name": null, "short": null},
+    "poland-Pl22_CS_59":                     {"name": null, "short": null},
+    "poland-Pl23_CS_53":                     {"name": null, "short": null},
     "sweden-S01_Strv_74_A2":                 {"name": null, "short": null},
     "sweden-S02_Strv_M42":                   {"name": null, "short": null},
     "sweden-S03_Strv_M38":                   {"name": null, "short": null},
@@ -560,6 +566,7 @@
     "usa-A12_T32_FL":                        {"name": null, "short": null},
     "usa-A130_Super_Hellcat":                {"name": null, "short": null},
     "usa-A132_T77":                          {"name": null, "short": null},
+    "usa-A136_T42":                          {"name": null, "short": null},
     "usa-A13_T34_hvy":                       {"name": null, "short": null},
     "usa-A13_T34_hvy_BF":                    {"name": null, "short": null},
     "usa-A13_T34_hvy_FL":                    {"name": null, "short": null},
@@ -611,6 +618,7 @@
     "usa-A67_T57_58":                        {"name": null, "short": null},
     "usa-A68_T28_Prototype":                 {"name": null, "short": null},
     "usa-A69_T110E5":                        {"name": null, "short": null},
+    "usa-A69_T110E5_WB":                     {"name": null, "short": null},
     "usa-A71_T21":                           {"name": null, "short": null},
     "usa-A72_T25_2":                         {"name": null, "short": null},
     "usa-A72_T25_2_SH":                      {"name": null, "short": null},
