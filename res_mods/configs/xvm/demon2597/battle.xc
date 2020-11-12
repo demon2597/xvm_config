@@ -13,6 +13,9 @@
     // false - disable pop-up panel with a dog tag.
     // false - отключить всплывающую внизу панель с личным жетоном.
     "showPostmortemDogTag": false,
+    // false - disable battle hints.
+    // false - отключить подсказки в бою.
+    "showBattleHint": true,
     // false - disable highlighting of own vehicle icon and squad.
     // false - отключить подсветку иконки своего танка и взвода.
     "highlightVehicleIcon": false,
@@ -32,28 +35,6 @@
     // Duration of the sixth sense indicator (msec).
     // Длительность отображения индикатора 6-го чувства (мсек).
     "sixthSenseDuration": 2000,
-    // true - hide the tips in battle.
-    // true - скрыть подсказки в бою.
-    "battleHint": {
-      // true - hide the tips aiming mode changing in strategic mode.
-      // true - скрыть подсказку смены режима прицеливания в стратегическом режиме.
-      "hideTrajectoryView": true,
-      // true - hide the tips about switching to siege mode and changing the driving mode (for wheeled vehicles).
-      // true - скрыть подсказку перехода в осадный режим и смены режима движения (для колесной техники).
-      "hideSiegeIndicator": true,
-      // true - hide the tips about switching to menu Personal Missions.
-      // true - скрыть подсказку перехода в меню ЛБЗ.
-      "hideQuestProgress": true,
-      // true - hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles).
-      // true - скрыть подсказку перехода к окну знакомства с особенностями машины (для колесной техники).
-      "hideHelpScreen": true,
-      // true - hide the hint about new battle communication.
-      // true - скрыть подсказку о новой коммуникации в бою.
-      "hideBattleCommunication": true,
-      // true - hide the tips about radar activation ("Steel Hunter" mode).
-      // true - скрыть подсказку активации радара (режим "Стальной охотник").
-      "hideRadarHint": true
-    },
     // GUI elements settings (experts only)
     // Настройки графических элементов (только для экспертов!)
     "elements": ${"elements.xc":"elements"},
