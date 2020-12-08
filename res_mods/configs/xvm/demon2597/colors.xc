@@ -6,11 +6,12 @@
   "def": {
      // System and damage color definition.
      // Шаблон системного цвета и цвета для урона.
-    "al": "0x60FF00",  // ally       / союзник
-    "sq": "0xFF914C",  // squadman   / взводный
-    "tk": "0x00EAFF",  // teamKiller / тимкиллер
-    "en": "0xFE0E00",  // enemy      / противник
-    "pl": "0xFFC363",  // player     / игрок
+    "al":   "0x60FF00",    // ally       / союзник
+    "sq":   "0xFF914C",    // squadman   / взводный
+    "tk":   "0x00EAFF",    // teamKiller / тимкиллер
+    "en":   "0xFE0E00",    // enemy      / противник
+    "pl":   "0xFFC363",    // player     / игрок
+    "self": "0xDD00DD",    // self       / сам себе
      // Dynamic color definition.
      // Шаблон динамического цвета.
     "color0": "0xC8C8B5",  // neutral       / нейтрально
@@ -38,24 +39,26 @@
       // Формат: объект_состояние
       // Объект: ally - союзник, squadman - взводный, teamKiller - тимкиллер, enemy - противник
       // Состояние: alive - живой, dead - мертвый, blowedup - взорвана боеукладка
-      //Союзник
-      "ally_alive":          ${"def.al"},  // живой
-      "ally_dead":           "0x008A00",   // мертвый
-      "ally_blowedup":       "0x008A00",   // взорван БК
-      //Взводный
-      "squadman_alive":      ${"def.sq"},  // живой
-      "squadman_dead":       "0xCA7000",   // мертвый
-      "squadman_blowedup":   "0xCA7000",   // взорван БК
-      //Тимкиллер
-      "teamKiller_alive":    ${"def.tk"},  // живой
-      "teamKiller_dead":     "0x097783",   // мертвый
-      "teamKiller_blowedup": "0x097783",   // взорван БК
-      //Противник
-      "enemy_alive":         ${"def.en"},  // живой
-      "enemy_dead":          "0xB30B02",   // мертвый
-      "enemy_blowedup":      "0xB30B02",   // взорван БК
-      "ally_base":           ${"def.al"},  // база союзников
-      "enemy_base":          ${"def.en"}   // база противников
+      // Союзник
+      "ally_alive":          ${"def.al"},   // живой
+      "ally_dead":           "0x008A00",    // мертвый
+      "ally_blowedup":       "0x008A00",    // взорван БК
+      // Взводный
+      "squadman_alive":      ${"def.sq"},   // живой
+      "squadman_dead":       "0xCA7000",    // мертвый
+      "squadman_blowedup":   "0xCA7000",    // взорван БК
+      // Тимкиллер
+      "teamKiller_alive":    ${"def.tk"},   // живой
+      "teamKiller_dead":     "0x097783",    // мертвый
+      "teamKiller_blowedup": "0x097783",    // взорван БК
+      // Противник
+      "enemy_alive":         ${"def.en"},   // живой
+      "enemy_dead":          "0xB30B02",    // мертвый
+      "enemy_blowedup":      "0xB30B02",    // взорван БК
+      // Игрок
+      "self_alive":          ${"def.self"}, // живой
+      "self_dead":           "0xBB00BB",    // мертвый
+      "self_blowedup":       "0x990099"     // взорван БК
     },
     // Dynamic color by damage kind.
     // Динамический цвет по типу урона.
@@ -66,6 +69,7 @@
       "world_collision": "0x805A37",  // столкновение с объектами, падение
       "death_zone":      "0xDBD7D2",  // выход из игровой зоны
       "drowning":        "0x265CFF",  // затопление
+      "overturn":        "0xCCCCCC",  // опрокидывание
       "other":           "0xCCCCCC"   // другое
     },
     // Dynamic color by vehicle type.
@@ -117,81 +121,96 @@
       // Источник: ally - союзник, squadman - взводный, enemy - противник, unknown - неизвестный (не виден игроку), player - игрок.
       // Получатель: ally, squadman, enemy, allytk - союзник тимкиллер, enemytk - противник тимкиллер.
       // Тип: hit - попадание, kill - убийство, blowup - боеукладка.
-      "ally_ally_hit":            "0x00CCFF",   // "teamKiller"
-      "ally_ally_kill":           ${"def.tk"},  // "teamKiller"
-      "ally_ally_blowup":         ${"def.tk"},  // "teamKiller"
-      "ally_squadman_hit":        "0x00CCFF",   // "teamKiller"
-      "ally_squadman_kill":       ${"def.tk"},  // "teamKiller"
-      "ally_squadman_blowup":     ${"def.tk"},  // "teamKiller"
-      "ally_enemy_hit":           ${"def.en"},  // "enemy"
-      "ally_enemy_kill":          ${"def.en"},  // "enemy"
-      "ally_enemy_blowup":        ${"def.en"},  // "enemy"
-      "ally_allytk_hit":          "0x00CCFF",   // "teamKiller"
-      "ally_allytk_kill":         ${"def.tk"},  // "teamKiller"
-      "ally_allytk_blowup":       ${"def.tk"},  // "teamKiller"
-      "ally_enemytk_hit":         ${"def.en"},  // "enemy"
-      "ally_enemytk_kill":        ${"def.en"},  // "enemy"
-      "ally_enemytk_blowup":      ${"def.en"},  // "enemy"
-      "squadman_ally_hit":        ${"def.tk"},  // "teamKiller"
-      "squadman_ally_kill":       ${"def.tk"},  // "teamKiller"
-      "squadman_ally_blowup":     ${"def.tk"},  // "teamKiller"
-      "squadman_squadman_hit":    ${"def.tk"},  // "teamKiller"
-      "squadman_squadman_kill":   ${"def.tk"},  // "teamKiller"
-      "squadman_squadman_blowup": ${"def.tk"},  // "teamKiller"
-      "squadman_enemy_hit":       ${"def.sq"},  // "enemy"
-      "squadman_enemy_kill":      ${"def.sq"},  // "enemy"
-      "squadman_enemy_blowup":    ${"def.sq"},  // "enemy"
-      "squadman_allytk_hit":      ${"def.tk"},  // "teamKiller"
-      "squadman_allytk_kill":     ${"def.tk"},  // "teamKiller"
-      "squadman_allytk_blowup":   ${"def.tk"},  // "teamKiller"
-      "squadman_enemytk_hit":     ${"def.sq"},  // "enemy"
-      "squadman_enemytk_kill":    ${"def.sq"},  // "enemy"
-      "squadman_enemytk_blowup":  ${"def.sq"},  // "enemy"
-      "enemy_ally_hit":           "0x36AD00",  // "ally"
-      "enemy_ally_kill":          ${"def.al"},  // "ally"
-      "enemy_ally_blowup":        ${"def.al"},  // "ally"
-      "enemy_squadman_hit":       "0xFF7D2E",   // "squadman"
-      "enemy_squadman_kill":      ${"def.sq"},  // "squadman"
-      "enemy_squadman_blowup":    ${"def.sq"},  // "squadman"
-      "enemy_enemy_hit":          ${"def.en"},  // "enemy"
-      "enemy_enemy_kill":         ${"def.en"},  // "enemy"
-      "enemy_enemy_blowup":       ${"def.en"},  // "enemy"
-      "enemy_allytk_hit":         "0x36AD00",   // "ally"
-      "enemy_allytk_kill":        ${"def.al"},  // "ally"
-      "enemy_allytk_blowup":      ${"def.al"},  // "ally"
-      "enemy_enemytk_hit":        ${"def.en"},  // "enemy"
-      "enemy_enemytk_kill":       ${"def.en"},  // "enemy"
-      "enemy_enemytk_blowup":     ${"def.en"},  // "enemy"
-      "unknown_ally_hit":         "0x36AD00",   // "ally"
-      "unknown_ally_kill":        ${"def.al"},  // "ally"
-      "unknown_ally_blowup":      ${"def.al"},  // "ally"
-      "unknown_squadman_hit":     "0xFF7D2E",   // "squadman"
-      "unknown_squadman_kill":    ${"def.sq"},  // "squadman"
-      "unknown_squadman_blowup":  ${"def.sq"},  // "squadman"
-      "unknown_enemy_hit":        ${"def.en"},  // "enemy"
-      "unknown_enemy_kill":       ${"def.en"},  // "enemy"
-      "unknown_enemy_blowup":     ${"def.en"},  // "enemy"
-      "unknown_allytk_hit":       "0x36AD00",   // "ally"
-      "unknown_allytk_kill":      ${"def.al"},  // "ally"
-      "unknown_allytk_blowup":    ${"def.al"},  // "ally"
-      "unknown_enemytk_hit":      ${"def.en"},  // "enemy"
-      "unknown_enemytk_kill":     ${"def.en"},  // "enemy"
-      "unknown_enemytk_blowup":   ${"def.en"},  // "enemy"
-      "player_ally_hit":          ${"def.pl"},  // "me"
-      "player_ally_kill":         ${"def.pl"},  // "me"
-      "player_ally_blowup":       ${"def.pl"},  // "me"
-      "player_squadman_hit":      ${"def.pl"},  // "me"
-      "player_squadman_kill":     ${"def.pl"},  // "me"
-      "player_squadman_blowup":   ${"def.pl"},  // "me"
-      "player_enemy_hit":         ${"def.pl"},  // "me"
-      "player_enemy_kill":        ${"def.pl"},  // "me"
-      "player_enemy_blowup":      ${"def.pl"},  // "me"
-      "player_allytk_hit":        ${"def.pl"},  // "me"
-      "player_allytk_kill":       ${"def.pl"},  // "me"
-      "player_allytk_blowup":     ${"def.pl"},  // "me"
-      "player_enemytk_hit":       ${"def.pl"},  // "me"
-      "player_enemytk_kill":      ${"def.pl"},  // "me"
-      "player_enemytk_blowup":    ${"def.pl"}   // "me"
+      "ally_ally_hit":            "0x00CCFF",    // "teamKiller"
+      "ally_ally_kill":           ${"def.tk"},   // "teamKiller"
+      "ally_ally_blowup":         ${"def.tk"},   // "teamKiller"
+      "ally_squadman_hit":        "0x00CCFF",    // "teamKiller"
+      "ally_squadman_kill":       ${"def.tk"},   // "teamKiller"
+      "ally_squadman_blowup":     ${"def.tk"},   // "teamKiller"
+      "ally_enemy_hit":           ${"def.en"},   // "enemy"
+      "ally_enemy_kill":          ${"def.en"},   // "enemy"
+      "ally_enemy_blowup":        ${"def.en"},   // "enemy"
+      "ally_allytk_hit":          "0x00CCFF",    // "teamKiller"
+      "ally_allytk_kill":         ${"def.tk"},   // "teamKiller"
+      "ally_allytk_blowup":       ${"def.tk"},   // "teamKiller"
+      "ally_enemytk_hit":         ${"def.en"},   // "enemy"
+      "ally_enemytk_kill":        ${"def.en"},   // "enemy"
+      "ally_enemytk_blowup":      ${"def.en"},   // "enemy"
+      "ally_self_hit":            ${"def.self"}, // "self"
+      "ally_self_kill":           ${"def.self"}, // "self"
+      "ally_self_blowup":         ${"def.self"}, // "self"
+      "squadman_ally_hit":        ${"def.tk"},   // "teamKiller"
+      "squadman_ally_kill":       ${"def.tk"},   // "teamKiller"
+      "squadman_ally_blowup":     ${"def.tk"},   // "teamKiller"
+      "squadman_squadman_hit":    ${"def.tk"},   // "teamKiller"
+      "squadman_squadman_kill":   ${"def.tk"},   // "teamKiller"
+      "squadman_squadman_blowup": ${"def.tk"},   // "teamKiller"
+      "squadman_enemy_hit":       ${"def.sq"},   // "enemy"
+      "squadman_enemy_kill":      ${"def.sq"},   // "enemy"
+      "squadman_enemy_blowup":    ${"def.sq"},   // "enemy"
+      "squadman_allytk_hit":      ${"def.tk"},   // "teamKiller"
+      "squadman_allytk_kill":     ${"def.tk"},   // "teamKiller"
+      "squadman_allytk_blowup":   ${"def.tk"},   // "teamKiller"
+      "squadman_enemytk_hit":     ${"def.sq"},   // "enemy"
+      "squadman_enemytk_kill":    ${"def.sq"},   // "enemy"
+      "squadman_enemytk_blowup":  ${"def.sq"},   // "enemy"
+      "squadman_self_hit":        ${"def.self"}, // "self"
+      "squadman_self_kill":       ${"def.self"}, // "self"
+      "squadman_self_blowup":     ${"def.self"}, // "self"
+      "enemy_ally_hit":           "0x36AD00",    // "ally"
+      "enemy_ally_kill":          ${"def.al"},   // "ally"
+      "enemy_ally_blowup":        ${"def.al"},   // "ally"
+      "enemy_squadman_hit":       "0xFF7D2E",    // "squadman"
+      "enemy_squadman_kill":      ${"def.sq"},   // "squadman"
+      "enemy_squadman_blowup":    ${"def.sq"},   // "squadman"
+      "enemy_enemy_hit":          ${"def.en"},   // "enemy"
+      "enemy_enemy_kill":         ${"def.en"},   // "enemy"
+      "enemy_enemy_blowup":       ${"def.en"},   // "enemy"
+      "enemy_allytk_hit":         "0x36AD00",    // "ally"
+      "enemy_allytk_kill":        ${"def.al"},   // "ally"
+      "enemy_allytk_blowup":      ${"def.al"},   // "ally"
+      "enemy_enemytk_hit":        ${"def.en"},   // "enemy"
+      "enemy_enemytk_kill":       ${"def.en"},   // "enemy"
+      "enemy_enemytk_blowup":     ${"def.en"},   // "enemy"
+      "enemy_self_hit":           ${"def.self"}, // "self"
+      "enemy_self_kill":          ${"def.self"}, // "self"
+      "enemy_self_blowup":        ${"def.self"}, // "self"
+      "unknown_ally_hit":         "0x36AD00",    // "ally"
+      "unknown_ally_kill":        ${"def.al"},   // "ally"
+      "unknown_ally_blowup":      ${"def.al"},   // "ally"
+      "unknown_squadman_hit":     "0xFF7D2E",    // "squadman"
+      "unknown_squadman_kill":    ${"def.sq"},   // "squadman"
+      "unknown_squadman_blowup":  ${"def.sq"},   // "squadman"
+      "unknown_enemy_hit":        ${"def.en"},   // "enemy"
+      "unknown_enemy_kill":       ${"def.en"},   // "enemy"
+      "unknown_enemy_blowup":     ${"def.en"},   // "enemy"
+      "unknown_allytk_hit":       "0x36AD00",    // "ally"
+      "unknown_allytk_kill":      ${"def.al"},   // "ally"
+      "unknown_allytk_blowup":    ${"def.al"},   // "ally"
+      "unknown_enemytk_hit":      ${"def.en"},   // "enemy"
+      "unknown_enemytk_kill":     ${"def.en"},   // "enemy"
+      "unknown_enemytk_blowup":   ${"def.en"},   // "enemy"
+      "unknown_self_hit":         ${"def.self"}, // "self"
+      "unknown_self_kill":        ${"def.self"}, // "self"
+      "unknown_self_blowup":      ${"def.self"}, // "self"
+      "player_ally_hit":          ${"def.pl"},   // "me"
+      "player_ally_kill":         ${"def.pl"},   // "me"
+      "player_ally_blowup":       ${"def.pl"},   // "me"
+      "player_squadman_hit":      ${"def.pl"},   // "me"
+      "player_squadman_kill":     ${"def.pl"},   // "me"
+      "player_squadman_blowup":   ${"def.pl"},   // "me"
+      "player_enemy_hit":         ${"def.pl"},   // "me"
+      "player_enemy_kill":        ${"def.pl"},   // "me"
+      "player_enemy_blowup":      ${"def.pl"},   // "me"
+      "player_allytk_hit":        ${"def.pl"},   // "me"
+      "player_allytk_kill":       ${"def.pl"},   // "me"
+      "player_allytk_blowup":     ${"def.pl"},   // "me"
+      "player_enemytk_hit":       ${"def.pl"},   // "me"
+      "player_enemytk_kill":      ${"def.pl"},   // "me"
+      "player_enemytk_blowup":    ${"def.pl"},   // "me"
+      "player_self_hit":          ${"def.self"}, // "self"
+      "player_self_kill":         ${"def.self"}, // "self"
+      "player_self_blowup":       ${"def.self"}  // "self"
     },
     // Values ​​below should be from smaller to larger.
     // Значения ниже должны быть от меньшего к большему.
