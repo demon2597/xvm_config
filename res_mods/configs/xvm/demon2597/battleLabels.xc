@@ -243,71 +243,6 @@
       "textFormat": { "color": "{{py:xvm.numberStuns>0?0xFFC363|0xFFFFFF}}", "size": 15 },
       "format": "<font face='XVMSymbol' size='21' color='#F2F2F2'>&#x10E;</font> <b>{{py:xvm.numberStuns}}</b>",
       "shadow": ${ "def.textFieldShadow" }
-    },
-    // Engine repair timer
-    // Таймер ремонта двигателя
-    "repairTimeEngine": {
-      "enabled": true,
-      "updateEvent": "PY(ON_ENGINE_UPDATE)",
-      "x": 5,
-      "y": -147,
-      "width": 45,
-      "height": 42,
-      "screenHAlign": "left",
-      "screenVAlign": "bottom",
-      "textFormat": { "color": "0xFFDD99", "size": 15 },
-      "format": "{{py:repairTimeEngine}}",
-      "shadow": { "$ref": { "path": "def.textFieldShadow" }, "color": "0xFF0000", "blur": 3 }
-    },
-    // Gun repair timer
-    // Таймер ремонта орудия
-    "repairTimeGun": {
-      "$ref": { "path": "def.repairTimeEngine" },
-      "enabled": true,
-      "updateEvent": "PY(ON_GUN_UPDATE)",
-      "x": 5,
-      "y": -71,
-      "format": "{{py:repairTimeGun}}"
-    },
-    // Turret rotator repair timer
-    // Таймер ремонта механизма поворота башни
-    "repairTimeTurret": {
-      "$ref": { "path": "def.repairTimeEngine" },
-      "enabled": true,
-      "updateEvent": "PY(ON_TURRETROTATOR_UPDATE)",
-      "x": 5,
-      "y": -33,
-      "format": "{{py:repairTimeTurret}}"
-    },
-    // Chassis\wheels repair timer
-    // Таймер ремонта гусениц\колёс
-    "repairTimeComplex": {
-      "$ref": { "path": "def.repairTimeEngine" },
-      "enabled": true,
-      "updateEvent": "PY(ON_COMPLEX_UPDATE)",
-      "x": 178,
-      "y": -147,
-      "format": "{{py:repairTimeComplex}}"
-    },
-    // Surveying device repair timer
-    // Таймер ремонта приборов наблюдения
-    "repairTimeSurveying": {
-      "$ref": { "path": "def.repairTimeEngine" },
-      "enabled": true,
-      "updateEvent": "PY(ON_SURVEYINGDEVICE_UPDATE)",
-      "x": 178,
-      "y": -109,
-      "format": "{{py:repairTimeSurveying}}"
-    },
-    // Repair timer for radio
-    // Таймер ремонта радиостанции
-    "repairTimeRadio": {
-      "$ref": { "path": "def.repairTimeEngine" },
-      "enabled": true,
-      "updateEvent": "PY(ON_RADIO_UPDATE)",
-      "x": 178,
-      "y": -71,
-      "format": "{{py:repairTimeRadio}}"
     }
   },
   "labels": {
@@ -328,13 +263,7 @@
       ${ "def.totalBlockedCount" },
       ${ "def.detection" },
       ${ "def.totalStun" },
-      ${ "def.totalStunCount" },
-      ${ "def.repairTimeEngine" },
-      ${ "def.repairTimeGun" },
-      ${ "def.repairTimeTurret" },
-      ${ "def.repairTimeComplex" },
-      ${ "def.repairTimeSurveying" },
-      ${ "def.repairTimeRadio" }
+      ${ "def.totalStunCount" }
     ]
   }
 }

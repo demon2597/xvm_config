@@ -4,9 +4,6 @@
  */
 {
   "login": {
-    // Save last server
-    // Сохранять последний сервер
-    "saveLastServer": true,
     // Auto enter to the game
     // Автоматический вход в игру
     "autologin": false,
