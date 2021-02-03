@@ -320,10 +320,13 @@
     // Show/hide notifications counters in the main menu
     // Показывать/прятать счетчики уведомлений в главном меню
     "notificationCounter": {
-      "store": false,                        // Store / Магазин
-      "missions": false,                     // Missions / Задачи
+      "storage": true,                       // Storage        / Склад
+      "store": false,                        // Store          / Магазин
+      "missions": false,                     // Missions       / Задачи
+      "PersonalMissionOperationsPage": true, // Campaigns      / Кампании      
       "profile": true,                       // Service Record / Достижения
-      "PersonalMissionOperationsPage": true  // Campaigns / Кампании
+      "barracks": true,                      // Barracks       / Казарма
+      "StrongholdView": true                 // Clan           / Клан
     },
     // true - show notifications counters in the window and on the button "Exterior".
     // true - показать счетчики уведомлений в окне и на кнопке "Внешний вид".
