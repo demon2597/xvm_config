@@ -220,6 +220,9 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": true,
+      // true - disable enemy spotted status icons.
+      // true - убрать отображение иконки статуса засвета противника.
+      "removeSpottedIndicator": true,
       // transparency of the squad icon
       // прозрачность иконки взвода
       "squadIconAlpha": 100,
@@ -333,6 +336,9 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": true,
+      // true - disable enemy spotted status icons.
+      // true - убрать отображение иконки статуса засвета противника.
+      "removeSpottedIndicator": true,
       // transparency of the squad icon
       // прозрачность иконки взвода
       "squadIconAlpha": 100,
@@ -463,6 +469,9 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": true,
+      // true - disable enemy spotted status icons.
+      // true - убрать отображение иконки статуса засвета противника.
+      "removeSpottedIndicator": true,
       // transparency of the squad icon
       // прозрачность иконки взвода
       "squadIconAlpha": 100,
@@ -590,6 +599,9 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": true,
+      // true - disable enemy spotted status icons.
+      // true - убрать отображение иконки статуса засвета противника.
+      "removeSpottedIndicator": true,
       // transparency of the squad icon
       // прозрачность иконки взвода
       "squadIconAlpha": 100,
