@@ -76,7 +76,10 @@
       "crystalsIcon": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
       // Stats field that appears on the mouse hover
       // Поле статистики, отображаемое при наведении мыши
-      "stats": { "enabled": false, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} }
+      "stats": { "enabled": false, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} },
+      // Battle Pass progression points.
+      // Очки прогрессии боевого пропуска.
+      "progressionPoints": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
     // Extra fields of cells (extended format supported, see extra-field.txt).
     // Дополнительные поля ячеек (поддерживается расширенный формат, см. extra-field.txt).
@@ -94,7 +97,7 @@
         "format": "<b><font face='$FieldFont' size='12' color='{{v.c_winrate|#C8C8B5}}'>{{v.winrate%2d~%}}</font></b>",
         "shadow": ${ "def.textFieldShadow" }
       },
-      { "x": 158, "y": 15, "align": "right",
+      { "x": 158, "y": 15, "align": "right", "layer": "top",
         "format": "<font face='$FieldFont' size='15' color='{{v.premium?#FFDD99|#C8C8B5}}'>{{v.name}}</font>",
         "shadow": { "$ref": { "path": "def.textFieldShadow" }, "color": "{{v.premium?0xFF0000|0x73734C}}", "alpha": "{{v.premium?100|75}}", "blur": "{{v.premium?12|6}}", "strength": "{{v.premium?2.5|1.5}}" }
       }

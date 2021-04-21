@@ -60,6 +60,9 @@
       // Список значений кратности для снайперского режима.
       // По умолчанию: [ 2, 4, 8 ]. Можно использовать большее количество значений.
       "zooms": [0.9, 3, 6, 10, 16, 22],
+      // Start distance (null for default behavior - saved state from the last battle).
+      // Начальная дистанция (null для поведения по умолчанию - сохраненная позиция из последнего боя).
+      "startZoom": null,
       // Zoom Indicator (see extra-field.txt for parameters description)
       // Global macros allowed in all fields
       // Индикатор масштаба (см. extra-field.txt для описания параметров)
@@ -73,18 +76,7 @@
       "shotRecoilEffect": true,
       // true - disable dimming and greening in sniper scope
       // true - отключить затемнение и озеленение в снайперском прицеле
-      "noBinoculars": false,
-      // TODO: English comments
-      // Отключение предела вращения камеры в снайперском прицеле для техники с ограниченными УГН (углами горизонтальной наводки) орудия.
-      "noCameraLimit": {
-        // true - enable.
-        // true - включить.
-        "enabled": true,
-        // "full" - отключение ограничения камеры и фиксации корпуса (включается вручную клавишей "x");
-        // "custom" - отключение ограничения камеры;
-        // "hotkey" - отключение ограничения камеры с зажатой правой кнопкой мыши;
-        "mode": "full"
-      }
+      "noBinoculars": false
     }
   }
 }
